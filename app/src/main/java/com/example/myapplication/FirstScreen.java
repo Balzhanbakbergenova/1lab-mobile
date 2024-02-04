@@ -18,7 +18,7 @@ public class FirstScreen extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         myBestButton = (Button) findViewById(R.id.button);
-        myBestButton.setBackgroundColor(Color.BLACK);
+        myBestButton.setBackgroundColor(Color.BLUE);
         myBestButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

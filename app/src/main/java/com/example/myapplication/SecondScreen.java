@@ -11,11 +11,9 @@ import android.widget.ListView;
 
 public class SecondScreen extends AppCompatActivity {
 
-    String myBestGroupMates[] = {"Aigerim","Aisha", "Balzhan", "Arailym", "Yerkhan", "Dulat"};
+    String myBestGroupMates[] = {"Dulat","Ruslan", "Yerkhan", "Nurzhan", "Alikhan"};
 
     ListView list;
-
-    Button myButton;
 
     @SuppressLint("MissingInflatedId")
     @Override

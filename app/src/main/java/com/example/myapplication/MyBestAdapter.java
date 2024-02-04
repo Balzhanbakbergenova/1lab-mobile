@@ -30,7 +30,7 @@ public class MyBestAdapter extends BaseAdapter {
         view = myBestInfater.inflate(R.layout.activity_group_mate, null);
         TextView textView = (TextView) view.findViewById(R.id.textView);
         textView.setText(myBestGroupMates[i]);
-        textView.setBackgroundColor(Color.GRAY);
+        textView.setBackgroundColor(Color.BLUE);
         textView.setTextColor(Color.WHITE);
         return view;
     }
